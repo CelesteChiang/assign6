@@ -3,7 +3,7 @@ class GameState
 	static final int START = 0;
 	static final int PLAYING = 1;
 	static final int END = 2;
-}
+        }
 
 class Direction
 {
@@ -41,7 +41,7 @@ boolean isMovingUp;
 boolean isMovingDown;
 boolean isMovingLeft;
 boolean isMovingRight;
-
+// ok
 int time;
 int wait = 4000;
 
