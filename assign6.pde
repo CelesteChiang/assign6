@@ -4,6 +4,7 @@ class GameState
 	static final int PLAYING = 1;
 	static final int END = 2;
 }
+
 class Direction
 {
 	static final int LEFT = 0;
@@ -23,6 +24,7 @@ class FlightType
 	static final int FIGHTER = 0;
 	static final int ENEMY = 1;
 	static final int ENEMYSTRONG = 2;
+	
 }
 
 int state = GameState.START;
